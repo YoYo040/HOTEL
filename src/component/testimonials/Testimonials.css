@@ -1,0 +1,10 @@
+.tes-user-profile img {
+    width: 100px;
+    height: 100px;
+  }
+.carousel-indicators button{
+    width: 40px !important;
+    height: 10px !important;
+    background-color: #ffc107 !important;
+   
+}

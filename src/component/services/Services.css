@@ -1,0 +1,11 @@
+.about{
+
+}
+.about-title{
+    width: max-content;
+    border-bottom: 2px #ffc107 solid;
+}
+.about-content-item i{
+    font-size: 40px;
+   
+}

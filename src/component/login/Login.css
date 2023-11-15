@@ -1,0 +1,43 @@
+/* .login{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 30%;
+    z-index: 3;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    transition: none;
+    
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: inset;
+} */
+.login form{
+    
+   
+    color: #fff;
+    background: transparent;
+    
+    animation: 1s slide;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: inset;
+}
+.login form input{
+    background: none;
+    border-bottom: 1px solid #fff;
+}
+@keyframes slide{
+    from {
+       transform: translateY(-10%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width:670px){
+    .login{
+        width: 60%;
+    }
+}

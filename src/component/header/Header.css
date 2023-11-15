@@ -1,0 +1,16 @@
+.header{
+    background-image: url('../../assete/imgs/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header::before{
+    content: '';
+    background-color: #0000008c;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}

@@ -1,0 +1,32 @@
+.rooms-items{
+    background-color: #8080801a;
+    border-radius: 10px;
+}
+
+.item-imgs{
+    height: 200px;
+    background-color: #fff;
+    padding: 1rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.item-imgs .img-s{
+    height: 200px;
+    border-radius: 5px;
+}
+.item-text{
+    background-color: #fff;
+    padding: 1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.item-text ul li{
+    list-style: none;
+}
+.irem-romm-prix span{
+    color: rgb(82, 82, 2);
+    font-size: 20px;
+    
+    
+   
+}

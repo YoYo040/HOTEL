@@ -1,0 +1,41 @@
+.reserv{
+    background-image: url('../../assete/imgs/mark-champs-Id2IIl1jOB0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: max-content;
+    padding-block: 5%;
+    position: relative;
+}
+.reserv:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+.reserv-content{
+    position: relative;
+}
+.reserv form div label{
+    color: #fff;
+}
+.reserv form div input{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    
+}
+.reserv form #reserv{
+    position: relative;
+    top: 38%;
+}
+@media(min-width:572){
+.reserv form #reserv{
+    width: max-content;
+}
+}

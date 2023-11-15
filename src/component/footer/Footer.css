@@ -1,0 +1,29 @@
+.info-footer h1{
+    font-family: 'Tangerine',serif;
+    font-size:  48px;
+    font-weight: bolder;
+    border-bottom: 1px solid #ffc107;
+}
+.info-footer h1 span{
+    color: #ffc107;
+}
+.add-title{
+    width: max-content;
+    
+}
+.add-footer ul {
+    list-style: none;
+}
+.media-title{
+    width: max-content;
+    
+}
+.media-icons span{
+    margin-inline: 3px;
+}
+.media-icons span{
+    margin-inline: 3px;
+    color: #ffc107;
+    cursor: pointer;
+    width: 1rem;
+}
